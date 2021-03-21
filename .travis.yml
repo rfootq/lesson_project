@@ -1,12 +1,13 @@
 
 dist: xenial
 language: cpp
-compiler: clang
+compiler: gcc
 addons:
   apt:
     packages:
     - libboost-test-dev
     - libspdlog-dev
+    - libspdlog
 script:
 - cmake .
 - cmake --build .
