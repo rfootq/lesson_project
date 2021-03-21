@@ -14,3 +14,6 @@ _deps
 out
 version.h
 CMakeSettings.json
+*.vcxproj
+*.filters
+*.sln
