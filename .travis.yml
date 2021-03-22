@@ -5,9 +5,8 @@ compiler: gcc
 addons:
   apt:
     packages:
-    - libboost-test-dev
+    - libboost-test1.58-dev
     - libspdlog-dev
-    - libspdlog
 script:
 - cmake .
 - cmake --build .
