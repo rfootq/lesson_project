@@ -4,7 +4,7 @@ project(lesson_project VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 find_package(Threads REQUIRED)
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
-find_package(spdlog CONFIG REQUIRED)
+find_package(spdlog)
 
 configure_file(version.h.in ${PROJECT_SOURCE_DIR}/version.h)
 
