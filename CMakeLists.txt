@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.12 FATAL_ERROR)
 
 project(lesson_project VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
