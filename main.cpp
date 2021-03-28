@@ -6,7 +6,7 @@
 int main()
 {
     auto logger = spdlog::stdout_color_mt("console");
-    logger->info("version {} was started", version());
+    spdlog::get("logger")->info("version {} was started", version());
 
     return 0;
 }

@@ -1,11 +1,11 @@
 
-dist: xenial
+dist: focal
 language: cpp
 compiler: gcc
 addons:
   apt:
     packages:
-    - libboost-test1.58-dev
+    - libboost-test-dev
     - libspdlog-dev
 script:
 - cmake .

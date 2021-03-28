@@ -17,3 +17,5 @@ CMakeSettings.json
 *.vcxproj
 *.filters
 *.sln
+*.tlog
+/lesson_project_cli.dir/Debug/vc142.pdb
